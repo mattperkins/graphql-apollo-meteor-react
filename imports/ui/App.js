@@ -1,5 +1,12 @@
-import React from "react";
+import gql from "graphql-tag";
+import { graphql } from "react-apollo";
 
 const App = () => <h1>Hello UI</h1>;
 
-export default App;
+const yoQuery = gql`
+  {
+    yo
+  }
+`;
+
+export default graphql(yoQuery)(App);
