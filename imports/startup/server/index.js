@@ -1,3 +1,4 @@
+/* eslint-disable */
 // console.log("Hello, World!");
 
 import { createApolloServer } from "meteor/apollo";
