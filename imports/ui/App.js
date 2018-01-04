@@ -9,4 +9,4 @@ const yoQuery = gql`
   }
 `;
 
-export default graphql(yoQuery)(App);
+export default App;
